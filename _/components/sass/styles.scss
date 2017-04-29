@@ -1,6 +1,8 @@
-$mycolor: #AACCBB;
+@import "compass";
+@import "susy";
 
-body{
-	backgound: $mycolor;
-
-}
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "modules";
